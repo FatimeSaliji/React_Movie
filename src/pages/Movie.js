@@ -1,5 +1,6 @@
 import React from 'react'
 import  {useEffect, useState} from 'react'
+import Pagination from '../components/Pagination';
 
 
 
@@ -50,14 +51,14 @@ export default function Movie() {
       
                 </p>
                                <a href="/Movie" className="btn btn-outline-primary">
-                               <i class="bi bi-arrow-right"></i>
+                               <i className="bi bi-arrow-right"></i>
                                </a>
                            </div>
                        </div>
                        </div>
                    ))}
                </div>
-               
+               <Pagination/>
            </div>
            
        </>
